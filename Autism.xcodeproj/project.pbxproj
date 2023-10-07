@@ -1,0 +1,662 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A029D64929CDA96A0031A15B /* ModeAQuestion.swift in Sources */ = {isa = PBXBuildFile; fileRef = A029D64829CDA96A0031A15B /* ModeAQuestion.swift */; };
+		A029D64B29CDA9780031A15B /* ModeDQuestion.swift in Sources */ = {isa = PBXBuildFile; fileRef = A029D64A29CDA9780031A15B /* ModeDQuestion.swift */; };
+		A029D64D29CDAE2E0031A15B /* ModeCView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A029D64C29CDAE2E0031A15B /* ModeCView.swift */; };
+		A0409EB32A8346DF003A8D9C /* ModeCQuestion.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0409EB22A8346DF003A8D9C /* ModeCQuestion.swift */; };
+		A0409EB52A8C5DC2003A8D9C /* ExplanationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0409EB42A8C5DC2003A8D9C /* ExplanationView.swift */; };
+		A049E6A729FF951B00CA3B31 /* LevelPassedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A049E6A629FF951B00CA3B31 /* LevelPassedView.swift */; };
+		A049E6A929FF9C4400CA3B31 /* LevelFailedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A049E6A829FF9C4400CA3B31 /* LevelFailedView.swift */; };
+		A081D88C29D9608900EB5AB6 /* ModeAView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A081D88B29D9608900EB5AB6 /* ModeAView.swift */; };
+		A081D88E29D97B3900EB5AB6 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A081D88D29D97B3900EB5AB6 /* HomeView.swift */; };
+		A081D89029D9898900EB5AB6 /* CompletionBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A081D88F29D9898900EB5AB6 /* CompletionBarView.swift */; };
+		A081D89229DFA94700EB5AB6 /* LevelsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A081D89129DFA94700EB5AB6 /* LevelsView.swift */; };
+		A098AEC329C700710089132E /* AutismApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A098AEC229C700710089132E /* AutismApp.swift */; };
+		A098AEC529C700710089132E /* ModeBView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A098AEC429C700710089132E /* ModeBView.swift */; };
+		A098AEC729C700720089132E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A098AEC629C700720089132E /* Assets.xcassets */; };
+		A098AECA29C700720089132E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A098AEC929C700720089132E /* Preview Assets.xcassets */; };
+		A098AED429C700720089132E /* AutismTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A098AED329C700720089132E /* AutismTests.swift */; };
+		A098AEDE29C700720089132E /* AutismUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A098AEDD29C700720089132E /* AutismUITests.swift */; };
+		A098AEE029C700720089132E /* AutismUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A098AEDF29C700720089132E /* AutismUITestsLaunchTests.swift */; };
+		A098AEEE29C703320089132E /* ModeBQuestion.swift in Sources */ = {isa = PBXBuildFile; fileRef = A098AEED29C703320089132E /* ModeBQuestion.swift */; };
+		A098AEF029C7048B0089132E /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = A098AEEF29C7048B0089132E /* Game.swift */; };
+		A0C75F7A2ABDD80200CEAD26 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A0C75F792ABDD80200CEAD26 /* Launch Screen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A098AED029C700720089132E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A098AEB729C700700089132E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A098AEBE29C700710089132E;
+			remoteInfo = Autism;
+		};
+		A098AEDA29C700720089132E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A098AEB729C700700089132E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A098AEBE29C700710089132E;
+			remoteInfo = Autism;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A029D64829CDA96A0031A15B /* ModeAQuestion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModeAQuestion.swift; sourceTree = "<group>"; };
+		A029D64A29CDA9780031A15B /* ModeDQuestion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModeDQuestion.swift; sourceTree = "<group>"; };
+		A029D64C29CDAE2E0031A15B /* ModeCView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModeCView.swift; sourceTree = "<group>"; };
+		A0409EB22A8346DF003A8D9C /* ModeCQuestion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModeCQuestion.swift; sourceTree = "<group>"; };
+		A0409EB42A8C5DC2003A8D9C /* ExplanationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExplanationView.swift; sourceTree = "<group>"; };
+		A049E6A629FF951B00CA3B31 /* LevelPassedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LevelPassedView.swift; sourceTree = "<group>"; };
+		A049E6A829FF9C4400CA3B31 /* LevelFailedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LevelFailedView.swift; sourceTree = "<group>"; };
+		A081D88B29D9608900EB5AB6 /* ModeAView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModeAView.swift; sourceTree = "<group>"; };
+		A081D88D29D97B3900EB5AB6 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		A081D88F29D9898900EB5AB6 /* CompletionBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompletionBarView.swift; sourceTree = "<group>"; };
+		A081D89129DFA94700EB5AB6 /* LevelsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LevelsView.swift; sourceTree = "<group>"; };
+		A098AEBF29C700710089132E /* Autism.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Autism.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A098AEC229C700710089132E /* AutismApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AutismApp.swift; sourceTree = "<group>"; };
+		A098AEC429C700710089132E /* ModeBView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModeBView.swift; sourceTree = "<group>"; };
+		A098AEC629C700720089132E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A098AEC929C700720089132E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		A098AECF29C700720089132E /* AutismTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AutismTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A098AED329C700720089132E /* AutismTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AutismTests.swift; sourceTree = "<group>"; };
+		A098AED929C700720089132E /* AutismUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AutismUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A098AEDD29C700720089132E /* AutismUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AutismUITests.swift; sourceTree = "<group>"; };
+		A098AEDF29C700720089132E /* AutismUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AutismUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		A098AEED29C703320089132E /* ModeBQuestion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModeBQuestion.swift; sourceTree = "<group>"; };
+		A098AEEF29C7048B0089132E /* Game.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
+		A0C75F792ABDD80200CEAD26 /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A098AEBC29C700710089132E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A098AECC29C700720089132E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A098AED629C700720089132E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A098AEB629C700700089132E = {
+			isa = PBXGroup;
+			children = (
+				A0C75F792ABDD80200CEAD26 /* Launch Screen.storyboard */,
+				A0409EB42A8C5DC2003A8D9C /* ExplanationView.swift */,
+				A0409EB22A8346DF003A8D9C /* ModeCQuestion.swift */,
+				A049E6A829FF9C4400CA3B31 /* LevelFailedView.swift */,
+				A049E6A629FF951B00CA3B31 /* LevelPassedView.swift */,
+				A081D88F29D9898900EB5AB6 /* CompletionBarView.swift */,
+				A029D64829CDA96A0031A15B /* ModeAQuestion.swift */,
+				A029D64A29CDA9780031A15B /* ModeDQuestion.swift */,
+				A098AEC129C700710089132E /* Autism */,
+				A098AED229C700720089132E /* AutismTests */,
+				A098AEDC29C700720089132E /* AutismUITests */,
+				A098AEC029C700710089132E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A098AEC029C700710089132E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A098AEBF29C700710089132E /* Autism.app */,
+				A098AECF29C700720089132E /* AutismTests.xctest */,
+				A098AED929C700720089132E /* AutismUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A098AEC129C700710089132E /* Autism */ = {
+			isa = PBXGroup;
+			children = (
+				A098AEC229C700710089132E /* AutismApp.swift */,
+				A098AEEF29C7048B0089132E /* Game.swift */,
+				A098AEC429C700710089132E /* ModeBView.swift */,
+				A029D64C29CDAE2E0031A15B /* ModeCView.swift */,
+				A081D88B29D9608900EB5AB6 /* ModeAView.swift */,
+				A081D89129DFA94700EB5AB6 /* LevelsView.swift */,
+				A081D88D29D97B3900EB5AB6 /* HomeView.swift */,
+				A098AEEC29C7008D0089132E /* Models */,
+				A098AEC629C700720089132E /* Assets.xcassets */,
+				A098AEC829C700720089132E /* Preview Content */,
+			);
+			path = Autism;
+			sourceTree = "<group>";
+		};
+		A098AEC829C700720089132E /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				A098AEC929C700720089132E /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		A098AED229C700720089132E /* AutismTests */ = {
+			isa = PBXGroup;
+			children = (
+				A098AED329C700720089132E /* AutismTests.swift */,
+			);
+			path = AutismTests;
+			sourceTree = "<group>";
+		};
+		A098AEDC29C700720089132E /* AutismUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A098AEDD29C700720089132E /* AutismUITests.swift */,
+				A098AEDF29C700720089132E /* AutismUITestsLaunchTests.swift */,
+			);
+			path = AutismUITests;
+			sourceTree = "<group>";
+		};
+		A098AEEC29C7008D0089132E /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				A098AEED29C703320089132E /* ModeBQuestion.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A098AEBE29C700710089132E /* Autism */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A098AEE329C700720089132E /* Build configuration list for PBXNativeTarget "Autism" */;
+			buildPhases = (
+				A098AEBB29C700710089132E /* Sources */,
+				A098AEBC29C700710089132E /* Frameworks */,
+				A098AEBD29C700710089132E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Autism;
+			productName = Autism;
+			productReference = A098AEBF29C700710089132E /* Autism.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A098AECE29C700720089132E /* AutismTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A098AEE629C700720089132E /* Build configuration list for PBXNativeTarget "AutismTests" */;
+			buildPhases = (
+				A098AECB29C700720089132E /* Sources */,
+				A098AECC29C700720089132E /* Frameworks */,
+				A098AECD29C700720089132E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A098AED129C700720089132E /* PBXTargetDependency */,
+			);
+			name = AutismTests;
+			productName = AutismTests;
+			productReference = A098AECF29C700720089132E /* AutismTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A098AED829C700720089132E /* AutismUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A098AEE929C700720089132E /* Build configuration list for PBXNativeTarget "AutismUITests" */;
+			buildPhases = (
+				A098AED529C700720089132E /* Sources */,
+				A098AED629C700720089132E /* Frameworks */,
+				A098AED729C700720089132E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A098AEDB29C700720089132E /* PBXTargetDependency */,
+			);
+			name = AutismUITests;
+			productName = AutismUITests;
+			productReference = A098AED929C700720089132E /* AutismUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A098AEB729C700700089132E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					A098AEBE29C700710089132E = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					A098AECE29C700720089132E = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = A098AEBE29C700710089132E;
+					};
+					A098AED829C700720089132E = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = A098AEBE29C700710089132E;
+					};
+				};
+			};
+			buildConfigurationList = A098AEBA29C700700089132E /* Build configuration list for PBXProject "Autism" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A098AEB629C700700089132E;
+			productRefGroup = A098AEC029C700710089132E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A098AEBE29C700710089132E /* Autism */,
+				A098AECE29C700720089132E /* AutismTests */,
+				A098AED829C700720089132E /* AutismUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A098AEBD29C700710089132E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A0C75F7A2ABDD80200CEAD26 /* Launch Screen.storyboard in Resources */,
+				A098AECA29C700720089132E /* Preview Assets.xcassets in Resources */,
+				A098AEC729C700720089132E /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A098AECD29C700720089132E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A098AED729C700720089132E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A098AEBB29C700710089132E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A081D88E29D97B3900EB5AB6 /* HomeView.swift in Sources */,
+				A029D64929CDA96A0031A15B /* ModeAQuestion.swift in Sources */,
+				A081D89029D9898900EB5AB6 /* CompletionBarView.swift in Sources */,
+				A081D89229DFA94700EB5AB6 /* LevelsView.swift in Sources */,
+				A0409EB32A8346DF003A8D9C /* ModeCQuestion.swift in Sources */,
+				A098AEC529C700710089132E /* ModeBView.swift in Sources */,
+				A029D64D29CDAE2E0031A15B /* ModeCView.swift in Sources */,
+				A049E6A929FF9C4400CA3B31 /* LevelFailedView.swift in Sources */,
+				A0409EB52A8C5DC2003A8D9C /* ExplanationView.swift in Sources */,
+				A081D88C29D9608900EB5AB6 /* ModeAView.swift in Sources */,
+				A049E6A729FF951B00CA3B31 /* LevelPassedView.swift in Sources */,
+				A029D64B29CDA9780031A15B /* ModeDQuestion.swift in Sources */,
+				A098AEEE29C703320089132E /* ModeBQuestion.swift in Sources */,
+				A098AEC329C700710089132E /* AutismApp.swift in Sources */,
+				A098AEF029C7048B0089132E /* Game.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A098AECB29C700720089132E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A098AED429C700720089132E /* AutismTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A098AED529C700720089132E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A098AEDE29C700720089132E /* AutismUITests.swift in Sources */,
+				A098AEE029C700720089132E /* AutismUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A098AED129C700720089132E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A098AEBE29C700710089132E /* Autism */;
+			targetProxy = A098AED029C700720089132E /* PBXContainerItemProxy */;
+		};
+		A098AEDB29C700720089132E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A098AEBE29C700710089132E /* Autism */;
+			targetProxy = A098AEDA29C700720089132E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		A098AEE129C700720089132E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A098AEE229C700720089132E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A098AEE429C700720089132E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 2;
+				DEVELOPMENT_ASSET_PATHS = "\"Autism/Preview Content\"";
+				DEVELOPMENT_TEAM = 9U76USCBB4;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Emotiverse;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.educational-games";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen.storyboard";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.3;
+				PRODUCT_BUNDLE_IDENTIFIER = Vamoose.Autism;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		A098AEE529C700720089132E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 2;
+				DEVELOPMENT_ASSET_PATHS = "\"Autism/Preview Content\"";
+				DEVELOPMENT_TEAM = 9U76USCBB4;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Emotiverse;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.educational-games";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen.storyboard";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.3;
+				PRODUCT_BUNDLE_IDENTIFIER = Vamoose.Autism;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		A098AEE729C700720089132E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Vamoose.AutismTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Autism.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Autism";
+			};
+			name = Debug;
+		};
+		A098AEE829C700720089132E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Vamoose.AutismTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Autism.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Autism";
+			};
+			name = Release;
+		};
+		A098AEEA29C700720089132E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Vamoose.AutismUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Autism;
+			};
+			name = Debug;
+		};
+		A098AEEB29C700720089132E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Vamoose.AutismUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Autism;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A098AEBA29C700700089132E /* Build configuration list for PBXProject "Autism" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A098AEE129C700720089132E /* Debug */,
+				A098AEE229C700720089132E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A098AEE329C700720089132E /* Build configuration list for PBXNativeTarget "Autism" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A098AEE429C700720089132E /* Debug */,
+				A098AEE529C700720089132E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A098AEE629C700720089132E /* Build configuration list for PBXNativeTarget "AutismTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A098AEE729C700720089132E /* Debug */,
+				A098AEE829C700720089132E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A098AEE929C700720089132E /* Build configuration list for PBXNativeTarget "AutismUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A098AEEA29C700720089132E /* Debug */,
+				A098AEEB29C700720089132E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A098AEB729C700700089132E /* Project object */;
+}
