@@ -8,10 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		A029D64929CDA96A0031A15B /* ModeAQuestion.swift in Sources */ = {isa = PBXBuildFile; fileRef = A029D64829CDA96A0031A15B /* ModeAQuestion.swift */; };
-		A029D64B29CDA9780031A15B /* ModeDQuestion.swift in Sources */ = {isa = PBXBuildFile; fileRef = A029D64A29CDA9780031A15B /* ModeDQuestion.swift */; };
 		A029D64D29CDAE2E0031A15B /* ModeCView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A029D64C29CDAE2E0031A15B /* ModeCView.swift */; };
 		A0409EB32A8346DF003A8D9C /* ModeCQuestion.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0409EB22A8346DF003A8D9C /* ModeCQuestion.swift */; };
-		A0409EB52A8C5DC2003A8D9C /* ExplanationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0409EB42A8C5DC2003A8D9C /* ExplanationView.swift */; };
 		A049E6A729FF951B00CA3B31 /* LevelPassedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A049E6A629FF951B00CA3B31 /* LevelPassedView.swift */; };
 		A049E6A929FF9C4400CA3B31 /* LevelFailedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A049E6A829FF9C4400CA3B31 /* LevelFailedView.swift */; };
 		A081D88C29D9608900EB5AB6 /* ModeAView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A081D88B29D9608900EB5AB6 /* ModeAView.swift */; };
@@ -49,10 +47,8 @@
 
 /* Begin PBXFileReference section */
 		A029D64829CDA96A0031A15B /* ModeAQuestion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModeAQuestion.swift; sourceTree = "<group>"; };
-		A029D64A29CDA9780031A15B /* ModeDQuestion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModeDQuestion.swift; sourceTree = "<group>"; };
 		A029D64C29CDAE2E0031A15B /* ModeCView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModeCView.swift; sourceTree = "<group>"; };
 		A0409EB22A8346DF003A8D9C /* ModeCQuestion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModeCQuestion.swift; sourceTree = "<group>"; };
-		A0409EB42A8C5DC2003A8D9C /* ExplanationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExplanationView.swift; sourceTree = "<group>"; };
 		A049E6A629FF951B00CA3B31 /* LevelPassedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LevelPassedView.swift; sourceTree = "<group>"; };
 		A049E6A829FF9C4400CA3B31 /* LevelFailedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LevelFailedView.swift; sourceTree = "<group>"; };
 		A081D88B29D9608900EB5AB6 /* ModeAView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModeAView.swift; sourceTree = "<group>"; };
@@ -103,13 +99,11 @@
 			isa = PBXGroup;
 			children = (
 				A0C75F792ABDD80200CEAD26 /* Launch Screen.storyboard */,
-				A0409EB42A8C5DC2003A8D9C /* ExplanationView.swift */,
 				A0409EB22A8346DF003A8D9C /* ModeCQuestion.swift */,
 				A049E6A829FF9C4400CA3B31 /* LevelFailedView.swift */,
 				A049E6A629FF951B00CA3B31 /* LevelPassedView.swift */,
 				A081D88F29D9898900EB5AB6 /* CompletionBarView.swift */,
 				A029D64829CDA96A0031A15B /* ModeAQuestion.swift */,
-				A029D64A29CDA9780031A15B /* ModeDQuestion.swift */,
 				A098AEC129C700710089132E /* Autism */,
 				A098AED229C700720089132E /* AutismTests */,
 				A098AEDC29C700720089132E /* AutismUITests */,
@@ -316,10 +310,8 @@
 				A098AEC529C700710089132E /* ModeBView.swift in Sources */,
 				A029D64D29CDAE2E0031A15B /* ModeCView.swift in Sources */,
 				A049E6A929FF9C4400CA3B31 /* LevelFailedView.swift in Sources */,
-				A0409EB52A8C5DC2003A8D9C /* ExplanationView.swift in Sources */,
 				A081D88C29D9608900EB5AB6 /* ModeAView.swift in Sources */,
 				A049E6A729FF951B00CA3B31 /* LevelPassedView.swift in Sources */,
-				A029D64B29CDA9780031A15B /* ModeDQuestion.swift in Sources */,
 				A098AEEE29C703320089132E /* ModeBQuestion.swift in Sources */,
 				A098AEC329C700710089132E /* AutismApp.swift in Sources */,
 				A098AEF029C7048B0089132E /* Game.swift in Sources */,
